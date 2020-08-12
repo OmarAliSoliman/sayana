@@ -563,6 +563,9 @@ img {
       width: 100%;
     }
   }
+  .previlidigis .prev-world{
+    max-width: 100%;
+  }
 }
 
 @media(max-width: 524px){
@@ -591,5 +594,20 @@ img {
   }
   .contact .contact-form::before{
     display: none;
+  }
+  .live-show .nav-tabs .nav-item{
+    width: 100%;
+    margin: 10px;
+  }
+  .beast-company{
+    background-position: right;
+  }
+  .live-iframe{
+    h6{
+      margin-top: 30px;
+    }
+    iframe{
+      margin-top: 30px;
+    }
   }
 }
